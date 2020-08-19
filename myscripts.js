@@ -1,3 +1,5 @@
+(function() {
+    "use strict"
 const navBarButtonRef = document.querySelector('[data-navbar-collapse]');
 
 navBarButtonRef.addEventListener('mouseover',function (){
@@ -51,5 +53,5 @@ function move(elem, widthElem) {
     }
   }
 }
-
+}());
 
